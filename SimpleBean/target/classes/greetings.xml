@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.springframework.org/schema/beans 
+spring-beans.xsd ">
+
+<!-- By default scope of bean is singleton other is prototype -->
+	<bean id="birthday" class="com.zensar.spring.BirthdayGreetings" scope = "singleton"></bean>
+	
+	
+	<bean id="holi" class="com.zensar.spring.HoliGreetings"></bean>
+
+
+
+
+</beans>

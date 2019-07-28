@@ -1,0 +1,15 @@
+package com.zensar.spring;
+
+import org.springframework.context.ApplicationContext;
+
+/**
+ * Hello world!
+ *
+ */
+public class SpringApp 
+{
+    public static void main( String[] args )
+    {
+        ApplicationContext 
+    }
+}

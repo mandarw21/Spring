@@ -1,0 +1,10 @@
+package com.zensar.spring.poems;
+
+public class TwinkleTwinkle implements Poem {
+
+	public void recite() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

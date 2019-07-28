@@ -1,0 +1,10 @@
+package com.zensar.spring.performers;
+
+public class Juggler implements Performer {
+
+	public void perform() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

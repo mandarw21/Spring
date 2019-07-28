@@ -1,0 +1,15 @@
+package com.zensar.spring;
+
+public class BirthdayGreetings implements Greetings {
+
+	public BirthdayGreetings() {
+		// TODO Auto-generated constructor stub
+		System.out.println("Birthday Greetings Created");
+	}
+	
+	public String sayGreet() {
+		// TODO Auto-generated method stub
+		return "Wish you a very Happy Birthday";
+	}
+
+}

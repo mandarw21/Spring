@@ -1,0 +1,45 @@
+package com.zensar.spring.performers;
+
+import com.zensar.spring.poems.Poem;
+
+/*
+ * Author: Pickle Rick
+ * Creation Date: 27th July 2019 16.53
+ * Modified Date: 27th July 2019 16.53 
+ * Version: 1.0
+ * Copyright: Zensar Technologies. All rights reserved.
+ * Description: More skilled juggler who juggles
+ * while reciting a poem.
+ * Poem is injected into PoeticJuggler
+ * using Constructor Injection
+ * That's all folks.   
+ * */
+
+//Dependent Object Class
+public class PoeticJuggler extends Juggler {
+	
+	//Dependency Object Reference 
+	private Poem poem;
+	
+	public PoeticJuggler() {
+		// TODO Auto-generated constructor stub
+		System.out.println("No-Arg Constructor of PoeticJuggler");
+	}
+
+	public PoeticJuggler(int beanBags, Poem poem) {
+		super(beanBags);
+		this.poem = poem;
+		System.out.println("Param Constructor of Poetic Juggler");
+	}
+
+	@Override
+	public void perform() {
+		// TODO Auto-generated method stub
+		super.perform();
+		System.out.println("While Reciting a Poem");
+		poem.recite();
+	}
+	
+	
+	
+}

@@ -1,0 +1,10 @@
+package com.zensar.spring;
+
+public class BirthdayGreetings implements Greetings {
+
+	public String sayGreet() {
+		// TODO Auto-generated method stub
+		return "Wish you a very Happy Birthday";
+	}
+
+}

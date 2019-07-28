@@ -1,0 +1,16 @@
+package com.zensar.spring.performers;
+
+/*
+ * Author: Pickle Rick
+ * Creation Date: 27th July 2019 16.53
+ * Modified Date: 27th July 2019 16.53 
+ * Version: 1.0
+ * Copyright: Zensar Technologies. All rights reserved.
+ * Description: More skilled juggler who juggles
+ * while reciting a poem.
+ * That's all folks.   
+ * */
+
+public class PoeticJuggler extends Juggler {
+	
+}

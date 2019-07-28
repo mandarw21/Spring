@@ -1,0 +1,21 @@
+package com.zensar.spring.performers;
+
+/*
+ * Author: Pickle Rick
+ * Creation Date: 27th July 2019 16.21
+ * Modified Date: 27th July 2019 16.21
+ * Version: 1.0
+ * Copyright: Zensar Technologies. All rights reserved.
+ * Description: It is used to represent performers.
+ * That's all folks.   
+ * */
+
+
+public class Juggler implements Performer {
+
+	public void perform() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
